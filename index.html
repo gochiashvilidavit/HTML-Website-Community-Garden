@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greenwood Community Garden</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Greenwood Community Garden</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#join">Join</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Welcome to Greenwood Community Garden</h1>
+      <p class="hero-tagline">Where neighbors dig in, plants pop up, and everyone’s hands get dirty (in a good way).</p>
+      <div class="hero-buttons">
+        <a href="#join" class="btn">Join a Plot</a>
+        <a href="#volunteer" class="btn secondary">Volunteer</a>
+      </div>
+    </div>
+  </section>
+
+    <section id="gallery" class="image-section gallery" aria-label="Community gallery">
+      <div class="section-inner">
+        <h2>Community Gallery</h2>
+        <div class="cards gallery-cards">
+          <article>
+            <figure>
+              <img src="img/hero.jpg" alt="Volunteers planting a raised bed">
+              <figcaption>Planting together</figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <img src="img/priscilla-du-preez-JCZ2pE-Szpw-unsplash.jpg" alt="Close-up of compost and soil">
+              <figcaption>Rich compost</figcaption>
+            </figure>
+          </article>
+          <article>
+            <figure>
+              <img src="img/elaine-casap-qgHGDbbSNm8-unsplash.jpg" alt="Baskets filled with freshly picked vegetables">
+              <figcaption>Fresh harvest</figcaption>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  <main>
+
+    <section id="about" class="split-section about">
+      <div class="split-inner">
+        <div class="split-photo about-photo" role="img" aria-label="Fresh harvest of tomatoes"></div>
+        <div class="split-content">
+          <div class="section-inner">
+            <h2>About Us</h2>
+            <p>We’re your local patch of green in the middle of the city. Grow veggies, swap seeds, share tips, or just come hang out. Beginners welcome — someone will happily tell you how not to kill your basil.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="split-section join">
+      <div class="split-inner reverse">
+        <div class="split-photo join-photo" role="img" aria-label="Planting and watering seedlings"></div>
+        <div class="split-content">
+          <div class="section-inner">
+            <h2>How to Join</h2>
+            <ol>
+              <li>Sign up for a plot (or share one).</li>
+              <li>Come to a quick orientation.</li>
+              <li>Start planting!</li>
+            </ol>
+            <p>Plots start at $30 per season. Scholarships and work-trade available.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="split-section events">
+      <div class="split-inner">
+        <div class="split-photo events-photo" role="img" aria-label="Raised beds in community garden"></div>
+        <div class="split-content">
+          <div class="section-inner">
+            <h2>Events &amp; Happenings</h2>
+            <ul>
+              <li>Work Parties: Every Saturday morning. Show up, we’ll hand you a shovel.</li>
+              <li>Seed Swap: First Sunday each month. Trade your extras for someone else’s weird beans.</li>
+              <li>Workshops: Composting, pollinator gardens, kids’ gardening days.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- welcome section removed; content moved into hero -->
+
+    <aside class="stats">
+      <div>
+        <h3>29</h3>
+        <p>Plots Available</p>
+      </div>
+      <div>
+        <h3>874</h3>
+        <p>Veggies Grown</p>
+      </div>
+      <div>
+        <h3>169K</h3>
+        <p>Seeds Swapped</p>
+      </div>
+      <div>
+        <h3>265</h3>
+        <p>Volunteer Hours</p>
+      </div>
+    </aside>
+
+    <section id="rules" class="rules">
+      <div class="rules-inner">
+        <h2>Garden Rules (the short list)</h2>
+        <ul>
+          <li>Don’t pick from someone else’s plot.</li>
+          <li>Keep it organic.</li>
+          <li>Put tools back where you found them.</li>
+          <li>Pets on leashes, kids supervised.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="volunteer" class="volunteer">
+      <h2>Get Involved</h2>
+      <p>Want to help build beds, teach a class, or just move dirt around? We’ll take it.</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Sign Up to Volunteer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>Coordinator: Maria Lopez</p>
+    <p>Email: <a href="mailto:hello@greenwoodgarden.org">hello@greenwoodgarden.org</a></p>
+    <p>Phone: <a href="tel:+15554122025">(555) 412-2025</a></p>
+    <p>120 Maple Ave, Greenwood</p>
+    <small>Greenwood Community Garden • Growing together since 2025</small>
+  </footer>
+
+</body>
+</html>
